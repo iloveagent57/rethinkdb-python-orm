@@ -5,7 +5,7 @@ A super-light RethinkdDB object-mapper for python.
 
 Usage
 =====
-
+<pre>
 from models import Model, Attribute
 import rethinkdb
 
@@ -20,3 +20,4 @@ with Model.connection(connection):
   my_obj = MyObject(name="Charlie", color="Brown")
   my_obj.save()
   print my_obj
+</pre>
